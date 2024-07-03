@@ -1,4 +1,8 @@
 {
   "name": "memorygamenew",
-  "displayName": "memorygamenew"
+  "displayName": "memorygamenew",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3866044541725967~2754675051",
+    "ios_app_id": "ca-app-pub-3866044541725967~9721406643"
+  }
 }

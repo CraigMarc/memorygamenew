@@ -1,4 +1,5 @@
 import { fetch } from "@react-native-community/netinfo";
+import Banner from './Banner.js'
 
 import {
     SafeAreaView,
@@ -166,16 +167,9 @@ function FindPics(props) {
                     {renderError()}
                 </View>
             </View>
-            <View style={styles.card}>
-                <Image
 
-                    style={styles.image}
-                    source={
-                        pic
-                    }
-                />
+            <Banner />
 
-            </View>
         </View>
     )
 
