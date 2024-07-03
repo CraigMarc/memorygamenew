@@ -90,7 +90,13 @@ var styles = StyleSheet.create({
     paddingTop: 5,
     fontWeight: 'bold',
     },
+    banner: {
+        paddingTop: 25,
+        },
+
+
 });
+
 
 function FindPics(props) {
 
@@ -167,9 +173,12 @@ function FindPics(props) {
                     {renderError()}
                 </View>
             </View>
-
+<View style={styles.banner}>
             <Banner />
-
+            </View>
+            <View style={styles.banner}>
+            <Banner />
+</View>
         </View>
     )
 

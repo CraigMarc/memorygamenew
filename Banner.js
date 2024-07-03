@@ -3,7 +3,7 @@ import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads'
 
 const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-3866044541725967/8548189104';
 //const adUnitId = "ca-app-pub-3866044541725967/4257326977"
-
+/*
 function Banner() {
   return (
     <BannerAd
@@ -11,17 +11,17 @@ function Banner() {
       size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
     />
   );
-}
+}*/
 
 
-/*
+
 function Banner() {
 return (
 // place your own ad unit id in the unitId variable
 
       <BannerAd
-        size={BannerAdSize.BANNER}
-        unitId="ca-app-pub-3866044541725967/8548189104"
+        size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+        unitId={adUnitId}
         onAdLoaded={() => {
           console.log('Advert loaded');
         }}
@@ -30,6 +30,6 @@ return (
         }}
         />
         )
-}*/
+}
 
 export default Banner;
